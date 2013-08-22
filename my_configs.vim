@@ -17,6 +17,7 @@ colors peaksea
 
 au BufNewFile,BufRead *.less set filetype=less
 au BufRead,BufNewFile *.thor set filetype=ruby
+au GUIEnter * simalt ~x "Maximize gVim on startup
 
 "r = replace with yanked text in visual mode
 vmap r "_dP
