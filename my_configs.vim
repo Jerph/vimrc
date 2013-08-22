@@ -57,3 +57,11 @@ nmap <M-j> mz:m+<cr>`z
 nmap <M-k> mz:m-2<cr>`z
 vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
 vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
+
+map <C-S-Tab> :tabprevious<CR>
+nmap <C-S-Tab> :tabprevious<CR>
+imap <C-S-Tab> <Esc>:tabprevious<CR>i
+
+map <C-Tab> :tabnext<CR>
+nmap <C-Tab> :tabnext<CR>
+imap <C-Tab> <Esc>:tabnext<CR>i
