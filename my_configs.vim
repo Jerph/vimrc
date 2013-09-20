@@ -5,8 +5,8 @@ behave mswin
 set number
 set nobackup
 set noswapfile
-set tabstop=4 
-set shiftwidth=4
+"set tabstop=4 
+"set shiftwidth=4
 set expandtab
 set gfn=Consolas:h9:cANSI
 set ignorecase
@@ -65,3 +65,8 @@ imap <C-S-Tab> <Esc>:tabprevious<CR>i
 map <C-Tab> :tabnext<CR>
 nmap <C-Tab> :tabnext<CR>
 imap <C-Tab> <Esc>:tabnext<CR>i
+
+map <C-M-S> <Esc>:mksession ~/mysession.vim
+autocmd FileType ruby set sw=2 sts=2 et
+
+set NERDTreeChDirMode=2
