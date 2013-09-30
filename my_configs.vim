@@ -69,4 +69,4 @@ imap <C-Tab> <Esc>:tabnext<CR>i
 map <C-M-S> <Esc>:mksession ~/mysession.vim
 autocmd FileType ruby set sw=2 sts=2 et
 
-set NERDTreeChDirMode=2
+let NERDTreeChDirMode=2
